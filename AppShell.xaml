@@ -9,7 +9,6 @@
     BindingContext="{x:Reference this}"
     Title="MaApp">
 
-    <ShellContent Title="LoginPage" ContentTemplate="{DataTemplate local:LoginPage}" FlyoutItemIsVisible="False"/>
     <ShellContent Title="MainPage" ContentTemplate="{DataTemplate local:MainPage}"/>
 
 </Shell>
